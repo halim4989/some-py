@@ -1,4 +1,4 @@
-This uses `Pytube` module to download specific resolution video from YouTube.
+This uses `Pytube` module to download a specific resolution video from YouTube.
 
 Uses module `subprocess` to run commands from package `ffmpeg` to separate the audio, splits the video to the nearest **Keyframe* of the given time (seek time), and then meagres the video with another audio. saves them in a separate folder.
 
