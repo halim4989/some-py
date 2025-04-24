@@ -32,10 +32,12 @@ def run_ffmpeg(vid = "final video"):
   '''
   print(f'Video Title\n {vid} \n')
 
+
+
   marge = f'ffmpeg -y -i ./tmp/vid.mp4 -i ./tmp/aud.acc -c copy -shortest ./tmp/out.mp4'
   # marge = f'ffmpeg -y -i ./tmp/vid.mp4 -i ./tmp/aud.acc -c copy -shortest "./out/{vid}.mp4"'
 
-  # commands to run later
+
   cut = f'ffmpeg -y -ss 4 -i ./tmp/out.mp4 -ss 1.9 -c copy "./out/{vid}.mp4"'
   concat = f'ffmpeg -y -f concat -safe 0 -i ./tmp/concat.txt -c copy "./out/{vid}.mp4"'
 
@@ -43,6 +45,7 @@ def run_ffmpeg(vid = "final video"):
   run_cmd(marge)
   print('\nVideo & Audio Marged')
 
+# cut first, mearge later.
   # print('\nCliping Marged video....')
   # run_cmd(cut)
   # print('\nCliping Done!!')
@@ -77,7 +80,7 @@ def run_cmd(cmd):
 
 
 def main():
-  txt = f'''#concat file with outro
+  txt = f''' #concat file with outro
   file 'out.mp4'
   file 'outro.mp4'
   '''
