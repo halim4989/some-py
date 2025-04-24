@@ -4,7 +4,7 @@ Uses module `subprocess` to run commands from package `ffmpeg` to separate the a
 
 
 
-**splitting from keyframe does not requires re-rendering the video. makes video editing super fast. *
+**splitting from keyframe does not requires re-rendering the video. makes video editing super fast.*
 
 
 
