@@ -50,3 +50,17 @@ Using two `-ss` flags is a common **two-step seek technique**:
  **Combining both** gives you **speed** + **accuracy** for precise, efficient cutting.
 
 ---
+
+## 💻 Installation
+
+### Prerequisites
+- Python 3.x  
+- [FFmpeg](https://ffmpeg.org/download.html) installed and added to PATH  
+
+### Install Dependencies
+```bash
+pip install pytube
+```
+
+
+
