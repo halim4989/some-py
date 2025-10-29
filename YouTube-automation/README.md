@@ -2,10 +2,7 @@
 
 *Download, cut, and merge YouTube videos effortlessly — powered by Pytube + FFmpeg.*
 
-![Python](https://img.shields.io/badge/Python-3.x-blue.svg)  
-![License](https://img.shields.io/badge/License-MIT-green.svg)  
-![Pytube](https://img.shields.io/badge/Uses-Pytube-orange.svg)  
-![FFmpeg](https://img.shields.io/badge/Backend-FFmpeg-red.svg)
+![Python](https://img.shields.io/badge/Python-3.x-blue.svg)  ![License](https://img.shields.io/badge/License-MIT-green.svg)  ![Pytube](https://img.shields.io/badge/Uses-Pytube-orange.svg)      ![FFmpeg](https://img.shields.io/badge/Backend-FFmpeg-red.svg)
 
 ---
 
