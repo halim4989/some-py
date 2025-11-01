@@ -16,6 +16,7 @@ This project automates YouTube video editing using Python.
 It downloads a video in a **specific resolution**, separates the **audio**, **splits** the video at a given timestamp (to the nearest **keyframe**), and then **merges** it with another audio track — all without re-rendering the video.
 
 > 💡 works by using FFmpeg to cut a video at keyframes without re-encoding the entire file, a process known as remuxing
+> 
 > 💡 Because the splitting is done on keyframes, the process is **super fast and lossless**.
 
 ---
